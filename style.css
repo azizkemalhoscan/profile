@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+
+#avatar {
+  width: 100px
+}
+
+body {
+  background-color: #CBC2C5;
+  font-family: 'EB Garamond', serif;
+  color: #092327;
+  font-size: 20px;
+  line-height: 5px;
+  display: center;
+  /*margin: 0, auto;*/
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2, h3, p, a {
+  color:#092327;
+  font-size:15px;
+  font-family: 'EB Garamond', serif;
+  line-height: 40px;
+}
+
+.social_links {
+  color: #7E8D85;
+  font-size:30px;
+  text-decoration: none;
+  text-align: center;
+  display: aligned;
+}
+.btn-dontknowcolor {
+  background-color: #F7EDF0;
+  border: 2px, solid, #F7EDF0;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.social_links:hover {
+  background-color: #092327;
+}
+
+#name {
+  font-size: 35px;
+}
+
+
+#upper_container  {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-top: 50px;
+}
+#lower_container {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 50px;
+}
+li {
+  display: inline;
+  text-align: center;
+  padding-right: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
